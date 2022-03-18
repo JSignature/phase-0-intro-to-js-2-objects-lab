@@ -1,6 +1,6 @@
 const employee = {
 
-    name: "Dina",
+    name: "Jimmy",
     streetAddress: "123 Jump Street",
 
 
@@ -36,8 +36,7 @@ function deleteFromEmployeeByKey(employee, key) {
 
 function destructivelyDeleteFromEmployeeByKey(employee, key) {
     
-   
-    delete employee[key]
+     delete employee[key]
 
     return employee
     
